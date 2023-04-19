@@ -1,5 +1,5 @@
 module "conventions" {
-  source        = "../conventions"
+  source        = "github.com/CloudRico/Uplift-modules.git?ref=v1"
   enviroment    = var.enviroment
   workload      = var.workload
   resource_type = "virtualnetwork"
